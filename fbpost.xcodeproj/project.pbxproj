@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40034643194FD175007CB630 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40034641194FD175007CB630 /* FeedViewController.m */; };
+		40034644194FD175007CB630 /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40034642194FD175007CB630 /* FeedViewController.xib */; };
 		40AA4C82194BE0D7005093E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AA4C81194BE0D7005093E5 /* main.m */; };
 		40AA4C85194BE0D7005093E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40AA4C84194BE0D7005093E5 /* AppDelegate.m */; };
 		40AA4C87194BE0D7005093E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AA4C86194BE0D7005093E5 /* Images.xcassets */; };
@@ -24,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40034640194FD175007CB630 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		40034641194FD175007CB630 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		40034642194FD175007CB630 /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 		40AA4C7C194BE0D7005093E5 /* fbpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fbpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AA4C80194BE0D7005093E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40AA4C81194BE0D7005093E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +82,9 @@
 				40AA4C83194BE0D7005093E5 /* AppDelegate.h */,
 				40AA4C84194BE0D7005093E5 /* AppDelegate.m */,
 				40AA4C86194BE0D7005093E5 /* Images.xcassets */,
+				40034640194FD175007CB630 /* FeedViewController.h */,
+				40034641194FD175007CB630 /* FeedViewController.m */,
+				40034642194FD175007CB630 /* FeedViewController.xib */,
 				40AA4C7F194BE0D7005093E5 /* Supporting Files */,
 			);
 			path = fbpost;
@@ -187,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40034644194FD175007CB630 /* FeedViewController.xib in Resources */,
 				40AA4C87194BE0D7005093E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40AA4C85194BE0D7005093E5 /* AppDelegate.m in Sources */,
+				40034643194FD175007CB630 /* FeedViewController.m in Sources */,
 				40AA4C82194BE0D7005093E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +394,7 @@
 				40AA4C98194BE0D7005093E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40AA4C99194BE0D7005093E5 /* Build configuration list for PBXNativeTarget "fbpostTests" */ = {
 			isa = XCConfigurationList;
@@ -392,6 +403,7 @@
 				40AA4C9B194BE0D7005093E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
