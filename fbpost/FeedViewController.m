@@ -28,6 +28,11 @@
 {
     [super viewDidLoad];
     self.postContainer.layer.cornerRadius = 2;
+    
+    self.postContainer.layer.shadowColor = [UIColor blackColor].CGColor;
+    self.postContainer.layer.shadowOffset = CGSizeMake(0, 0);
+    self.postContainer.layer.shadowOpacity = 0.2;
+    self.postContainer.layer.shadowRadius = 2;
 }
 
 - (void)didReceiveMemoryWarning
